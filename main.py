@@ -6,9 +6,9 @@ import os
 
 
 bot = Client("bot",
-             bot_token= os.environ.get("BOT_TOKEN", ""), 
-             api_id= int(os.environ.get("APP_ID", 12345)), #api
-             api_hash= os.environ.get("API_HASH"))
+             bot_token= "5067758600:AAFb0WIHF96XqYF3pNav0jQFWGdhd0hkKTU", 
+             api_id= 28590119, #api
+             api_hash= "2494557bf21e6c5152f26070aa1a97c7")
 
 
 keyboard = InlineKeyboardMarkup(
